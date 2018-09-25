@@ -5,7 +5,8 @@ output: html_notebook
 test test
 
 ```{r}
-plot(cars)
+plot(cars,
+     main = "plot of cars")
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
